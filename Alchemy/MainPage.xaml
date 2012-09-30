@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="Alchemy.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Alchemy"
+    xmlns:controls="using:Alchemy.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    
+    <Page.Resources>
+        <DataTemplate x:Key="elementDataTemplate">
+            <Grid Width="75" x:Name="rootLayout" Margin="12">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image Width="75" Height="75" Source="{Binding Image}" Grid.Row="0" />
+                <TextBlock Text="{Binding Name}" Grid.Row="1" HorizontalAlignment="Center" Margin="0,6,0,12" />
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Canvas Background="{StaticResource ApplicationPageBackgroundThemeBrush}" x:Name="gameSurface">
+
+    </Canvas>
+    
+    <Page.TopAppBar>
+        <AppBar Opened="ElementsAppBar_Opened">
+            <ListView x:Name="elements" SelectionMode="None" IsItemClickEnabled="True" ItemTemplate="{StaticResource elementDataTemplate}" ItemClick="AddElement">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal" />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+            </ListView>
+
+        </AppBar>
+    </Page.TopAppBar>
+</Page>
