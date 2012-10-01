@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Alchemy">
+  <logicalClassDesignerModelMoniker Id="99127d62-8964-483c-b704-576d527a8258" />
+  <nestedChildShapes>
+    <classShape Id="b3ecd7f5-b262-4bb3-8c51-872076b1fe28" absoluteBounds="2.875, 1.5, 4.75, 1.8284605995814007" hideQualifiedName="true" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="643b5808-2b18-4cae-bf63-f2454600443c" LastKnownName="AlchemyEngine" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="b056a95b-7f09-44b1-a48c-988a0953cb2d" absoluteBounds="2.89, 2.0153356393178306, 4.7200000000000006, 0.52148435761531176" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="50a3b338-3f63-4a70-bd77-df7e4f42a0e3" absoluteBounds="2.89, 2.5468199969331424, 4.7200000000000006, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

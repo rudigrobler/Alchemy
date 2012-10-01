@@ -1,0 +1,1116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="89e566dd-d05a-43cb-b4e3-54003a4e7341"
+  name="Common"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5b2d3f24-de0c-41d9-add0-8fd63ee9c474"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAlchemy.Common"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="4cb5c802-ac3f-42ba-a09e-4e43f1e0d378"
+        name="AlchemyEngine"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="514115b6-2ae4-4c54-b76e-f7b2cb5975e3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyEngine"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4c177bfe-a6d5-4c6a-87fe-b7b332575e78"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2c5a8ec5-56b7-44c5-b010-10777500282a">
+                <propertyInstance
+                  Id="b304ccf7-deae-4312-9096-8e165a39bb6c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96be56f4-55c4-4e70-b2b6-1b4d0cbe357d">
+                <propertyInstance
+                  Id="a74e5b8c-912f-4346-9dd2-236261223e42"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="caa4416b-e81f-4250-9cde-80a731c7e562">
+                <propertyInstance
+                  Id="5c3b686c-f6cd-4a4b-ba84-2226b456a30d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b02f9e27-cca6-46cd-bd11-699ae042f53a">
+                <propertyInstance
+                  Id="efeedebe-46a6-4893-9e3a-5b6766f3e27e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4a878d94-09d3-4096-80e0-6b426a33bd47">
+                <propertyInstance
+                  Id="59288f50-e4fb-45da-b673-a1ab1b5e48f3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="454da0ae-de06-47cc-97d3-b34fba950adb"
+            name="elements"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e48c1eda-beb4-420f-b57e-924e1145729f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyEngine Member%3Delements"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="631c25a4-e07c-419b-885c-6389cf8d56ec"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1e6a0b0-726e-4b54-ab3d-008c66c82d6a">
+                    <propertyInstance
+                      Id="6319fe9f-54e9-49a4-97df-e37d815307fb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ca3f4e9-9f0c-4bd7-9a35-625ce49f82ce">
+                    <propertyInstance
+                      Id="7561b59f-996a-4d2f-bee0-8fe2b08ddb58"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3789f541-401f-4884-b850-8c34bac855d6">
+                    <propertyInstance
+                      Id="9a7ae6c9-5bd9-411f-a158-d6d4e5418d8a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8404f1ac-fd43-432e-b6d8-719b82e03a09">
+                    <propertyInstance
+                      Id="6ad8bde5-39f1-42b6-bef0-18a1b75cad36"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87f19b52-edc0-4d34-a04c-11f98597a2ba">
+                    <propertyInstance
+                      Id="836347a1-70ed-461b-8555-a7722e0cc520"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f9c2edcc-a70e-4c68-87fb-909668b24f2e"
+                LastKnownName="List&lt;AlchemyElement‎&gt;"
+                LastKnownLocation="Package4_2244.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e3176f56-ad37-4c0f-9984-7c5de0695019"
+            name="reactions"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d9e029fd-e558-4627-bcd5-14782d11fad8"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyEngine Member%3Dreactions"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b9842284-11ef-4e6e-9e5a-0b65df846608"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6c7283f-ebce-4a94-95e9-65e64a9f4666">
+                    <propertyInstance
+                      Id="52d2d637-0ca3-4cc9-9842-68d03154a238"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41013898-6df5-4676-8635-9b383b455156">
+                    <propertyInstance
+                      Id="a41de14c-e41c-464c-8bae-74c4e1747236"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5cc43ca-47f7-4680-ad2f-fafdb75a283e">
+                    <propertyInstance
+                      Id="a31e8817-72a7-4e25-817f-2875de31c820"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d549256e-f9e3-4033-9bfa-9ad6e702897f">
+                    <propertyInstance
+                      Id="ed965706-b679-42c3-a2db-70d05be3b008"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9acc6018-0ac8-4e3e-ae95-6c292b474cdd">
+                    <propertyInstance
+                      Id="bf2ad354-0a7d-44db-bf29-0116aef59810"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="e019e81b-4939-49ac-9543-389e6f9bbc1b"
+                LastKnownName="List&lt;AlchemyReaction‎&gt;"
+                LastKnownLocation="Package4_2244.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="be8a26ca-db20-4ab0-bb3b-22bd6e22155f"
+            name="AlchemyEngine"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="67d247c7-924e-4dd9-afd0-00625b2e9123"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyEngine Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="94418cd8-eb06-4af8-96d7-3ac994379d82"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ed452ba-1cdc-4448-bc6f-ad473ccbe563">
+                    <propertyInstance
+                      Id="b4baf598-99cb-41c9-b49a-802fbac6bd55"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6bc1bb5-a721-4a10-b439-c46d69b4a685">
+                    <propertyInstance
+                      Id="cfb0caac-85f6-48eb-822d-c4c948c34427"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4103e7d-bba3-4687-b427-267e513b09e2">
+                    <propertyInstance
+                      Id="7945b483-0db6-4d61-a820-31dae4a92dfb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d052df86-a8bf-45d2-8a94-4fd8b1d1735c">
+                    <propertyInstance
+                      Id="c873cdd8-9813-4ffe-b054-bb109bd9a492"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ff884fd-44a9-4379-a6d0-fd492b9abc8f">
+                    <propertyInstance
+                      Id="d608d482-5b6d-4ff0-bf9f-c2d76b609dae"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcf3e235-7a2f-46d6-a151-888ab8b45e5d">
+                    <propertyInstance
+                      Id="4bbe8eff-4a9e-4d9f-9666-59c452166d27"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="52304c75-ec65-4341-becf-d2c33e5a0363"
+            name="GetUsableElements"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bf2d5f48-bdc9-4296-8122-6a1e0830ab73"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyEngine Member%3DGetUsableElements"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="810a7fd4-3543-4a17-ae58-679e476c8506"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3a8cfdb-8947-41d6-b9d3-d628a214a9d4">
+                    <propertyInstance
+                      Id="e030498f-ebed-47a2-acbb-8074f9cdfee6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40c75512-d303-4a64-96e5-46eb02cf9006">
+                    <propertyInstance
+                      Id="00bdf9cd-a5a8-48f5-b683-99f537fd5bc3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2af42239-d796-462b-90e6-913b2a2afc94">
+                    <propertyInstance
+                      Id="930800c0-5e65-4c3e-aeb4-231c229dfe3a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7df73411-1937-43bc-baeb-4cdcf5293aac">
+                    <propertyInstance
+                      Id="4775895e-9951-4b01-a55e-541da455fa6b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4415f20-fa23-45ab-8d5c-06a35a1901eb">
+                    <propertyInstance
+                      Id="c48f5eec-f0e8-4665-bb20-4df1c499c0cf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="691e4503-8e56-4997-acb3-1a4288f29c57">
+                    <propertyInstance
+                      Id="11f79023-9eaf-49d5-ab88-68213aa75e6f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9dff7759-6022-4715-b126-ffd20e677aa7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f9c2edcc-a70e-4c68-87fb-909668b24f2e"
+                      LastKnownName="List&lt;AlchemyElement‎&gt;"
+                      LastKnownLocation="Package4_2244.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e91aed99-d348-4d5b-b4aa-c1ed29fbadfd"
+            name="TestForReaction"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d8f73d11-8275-4e09-a880-0de29a60627c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyEngine Member%3D(Name%3DTestForReaction OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9456814b-06a3-4d51-a16b-5fa4ae7ed63f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6456a292-c1e6-4222-b83e-2a306dbd5e5e">
+                    <propertyInstance
+                      Id="0bcc2063-fa0a-4bca-9bbd-401dfe178cc3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c8258a0-6958-4c3e-b9b7-5fa62a245a63">
+                    <propertyInstance
+                      Id="48c3750a-1e8b-4adb-81ae-e2bcdf7beac6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a348031-f999-4acf-9828-036b42b257a6">
+                    <propertyInstance
+                      Id="3a805963-58c0-44a2-ba95-b0a91bfa7e81"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="211eff91-7e87-44e6-90d8-9d04170b07b6">
+                    <propertyInstance
+                      Id="afe5bfda-426f-453a-8817-5f1f3a0b100e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b523b1b8-24b9-4b9d-a3d7-f87c5dbe4b0a">
+                    <propertyInstance
+                      Id="e7444836-8154-4849-ab0e-235cac11a8a4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d3ca186-ae66-4fa1-99dc-0c01de07af0f">
+                    <propertyInstance
+                      Id="aca2a5e6-54fa-4d7c-9a58-d22bd38fef79"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aff72f4c-750b-4f1e-b3bc-8018f3fdb253"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="959fd6c6-a130-44c9-87d6-c57feadcc9f1"
+                      LastKnownName="AlchemyElement"
+                      LastKnownLocation="Package1_2244.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dfa5012a-b5a1-4ad2-9595-e318a775a4ff"
+                  name="e1"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c8502907-6a95-47e5-b97a-f3fd7807b63c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyEngine Member%3D(Name%3DTestForReaction OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement)]) ParameterIdentifier%3De1"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="959fd6c6-a130-44c9-87d6-c57feadcc9f1"
+                      LastKnownName="AlchemyElement"
+                      LastKnownLocation="Package1_2244.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9a6840c1-bc4d-439e-bf36-bd3158ef295c"
+                  name="e2"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3de5be34-4539-456c-b13b-b198621bf955"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyEngine Member%3D(Name%3DTestForReaction OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement)]) ParameterIdentifier%3De2"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="959fd6c6-a130-44c9-87d6-c57feadcc9f1"
+                      LastKnownName="AlchemyElement"
+                      LastKnownLocation="Package1_2244.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="959fd6c6-a130-44c9-87d6-c57feadcc9f1"
+        name="AlchemyElement"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="59972909-dc08-43cd-a652-6c0b49c3b13b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6c887231-db16-43c6-b80d-b2a346d0c48f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ec74c347-efab-4096-bb02-d9672d643899">
+                <propertyInstance
+                  Id="bf9a1645-ddec-405c-8565-8772e7860476"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="849f0f6c-234f-4344-91d5-67b6e2ce60d1">
+                <propertyInstance
+                  Id="fa14e799-aa54-4154-a8af-de6f2e2ded11"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="16ce244b-5763-419c-8158-6f013f40996a">
+                <propertyInstance
+                  Id="2cb77f1b-7314-405d-aca1-4da58262abba"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b85326b5-ef7d-4592-9533-ca0b9b23ab66">
+                <propertyInstance
+                  Id="1ab7f5e0-8850-4bdb-9197-a96e6e89a799"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="27d9d8ab-9fbd-4911-a6e2-d18bed077141">
+                <propertyInstance
+                  Id="913f187a-3576-4131-bff7-1cbf567b1207"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="b95bf845-c222-486e-b67c-48f422c7bab8"
+            isDerived="false"
+            sourceEndRoleName="AlchemyElement"
+            targetEndRoleName="Name"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d58b2567-2c52-495a-8b34-2b40bac97338"
+              LastKnownName="String"
+              LastKnownLocation="Package2_2244.uml" />
+            <description>Property Name references type String.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="25763f11-38c8-4da3-974e-cd12786f6118"
+                  name="AlchemyElement"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c5da3b26-0efe-43c3-99e8-9698993a75f2"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b7ec6af4-0ce1-41ef-bbe3-98cd24683a9b"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0a04986a-f58f-4f4f-99b5-862bf8eba9df"
+                  name="Name"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="28f87e5b-f9ca-4d95-95cc-79e34cc0c6ad"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9cc51b71-395e-4119-9f7b-e7067ee0f833"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="11112c6d-1ceb-4294-854f-3b5bcbc0b8f2"
+            isDerived="false"
+            sourceEndRoleName="AlchemyElement"
+            targetEndRoleName="Image"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="b1a1dec7-1b9b-4215-a040-95ce5f7f39f0"
+              LastKnownName="Uri"
+              LastKnownLocation="Package2_2244.uml" />
+            <description>Property Image references type Uri.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="971aa02d-f255-4adf-b702-c6a21f9c1a0a"
+                  name="AlchemyElement"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0607455b-37ec-4892-8b4e-87cbbc65e395"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="3726aadb-ae1a-4819-9a03-d5347030cb17"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="97cda5c9-c538-458a-b22f-11155009a8f2"
+                  name="Image"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5dd28974-eab9-4065-a5ca-3cd8496948f6"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c1ee1f37-e5cf-4296-98c4-6bcd247dd804"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="f5fca357-fca5-4294-a1d9-b05c410162eb"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="26903650-d283-4aa6-8254-00975360a738"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f540bd0a-9d30-4d8f-ada1-0d1add2e880f"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74bf1348-49dd-45cf-b01e-7b0da377f639">
+                    <propertyInstance
+                      Id="936d5dac-2925-4d78-8ca5-82dd15159942"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de97d997-5a54-4a80-a137-1770c745e425">
+                    <propertyInstance
+                      Id="ee58a186-6d8a-470a-93d4-69021bf94dfc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15f42fbe-3783-4de4-9b57-2882d3ae8b3d">
+                    <propertyInstance
+                      Id="45fd5307-387a-4cbd-974b-bf9231cabb80"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39757016-3140-49f5-9e1f-635235e0e5f8">
+                    <propertyInstance
+                      Id="33855999-b8e3-42c1-9c79-165ca57a5851"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91578ff1-e09c-44ab-a50d-b1c088062896">
+                    <propertyInstance
+                      Id="e5cd31b1-a102-4d2e-b751-b96646dd454c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eab43616-443a-4d26-b691-742020fa708f">
+                    <propertyInstance
+                      Id="bd302b42-08a7-4566-ac78-ced573e53434"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e2d96c2-fffc-493a-8002-021eb6850dc9">
+                    <propertyInstance
+                      Id="cd2057d4-c474-408c-a24f-e88f5d40c24c"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d58b2567-2c52-495a-8b34-2b40bac97338"
+                LastKnownName="String"
+                LastKnownLocation="Package2_2244.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1644fe7a-2a0e-4587-b887-c1ead5215e5c"
+            name="Image"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e004cfd6-8e2f-4367-a2d4-89ba9ca0d5f9"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement Member%3DImage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="943133f2-0745-4747-9131-d03831c47ff8"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b639215-e4a5-47f3-85c3-b24908f2709e">
+                    <propertyInstance
+                      Id="4e34c297-882d-4f22-866a-d5b1dd0cdff6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce46883c-fd79-4332-9458-4882fa728557">
+                    <propertyInstance
+                      Id="2afa84ce-3549-4173-a271-3b268a376057"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2be08daf-abb7-465d-aeba-b701d8079a96">
+                    <propertyInstance
+                      Id="95080143-a02e-4436-a93c-615263673661"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fefe253-296c-46bf-9cd3-4a2c629b1387">
+                    <propertyInstance
+                      Id="d7dd0bc3-fb48-441c-983f-b4752b6a3062"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4eb1701-b2fd-4662-ae0e-27cc289ad208">
+                    <propertyInstance
+                      Id="b4381147-2050-47f7-af95-6ac45f5da89f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f1ac645-a739-4840-bf39-cd66967f42b9">
+                    <propertyInstance
+                      Id="f899ef7e-f0d0-453a-b7fc-012efcad006b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb91f96c-f58e-4cdb-8f22-a74e4f528751">
+                    <propertyInstance
+                      Id="b016d4c7-fff9-449a-8ad7-7561e52b4e37"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b1a1dec7-1b9b-4215-a040-95ce5f7f39f0"
+                LastKnownName="Uri"
+                LastKnownLocation="Package2_2244.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="51f5af68-438a-4b19-9fa3-4b213d891d88"
+            name="_baseUri"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c5044fcd-7afa-482e-8a54-0b8eb1fe2eb7"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement Member%3D_baseUri"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ec849bb1-730c-4bb0-83e1-a5570ff3c38e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d251077f-cba7-4f3c-9936-bbe7c77f028a">
+                    <propertyInstance
+                      Id="bcfe4da5-b2f2-425a-8fe4-2c75d37a744a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0cb4766e-f863-42da-b1a2-3fd9eb83d8dd">
+                    <propertyInstance
+                      Id="cfbbddcf-7440-4d90-9021-afa902635dc8"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53e91bf0-40c1-4108-b2cc-89fd0e69c861">
+                    <propertyInstance
+                      Id="9890e8f4-4c2e-4841-9fe4-4403ff0edf8e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0de540ea-07a6-4d45-9f7a-b219f1d2b484">
+                    <propertyInstance
+                      Id="c4eee325-5ebe-461f-9061-a575386a8c85"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c3be9d1-e0b8-4bdb-8b0a-00f2fdd0be8c">
+                    <propertyInstance
+                      Id="d8a18a8a-f894-4ec4-baf5-e0c3861ca975"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b1a1dec7-1b9b-4215-a040-95ce5f7f39f0"
+                LastKnownName="Uri"
+                LastKnownLocation="Package2_2244.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ca12fb29-4b97-4a19-b008-b8fd80b868b6"
+            name="Create"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5cfc8e16-9a55-43cc-b218-36417a504e36"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement Member%3D(Name%3DCreate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6a34c933-dbeb-4f87-836c-7605ff0a69bc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="622ddf6f-f9ea-4d6c-96a7-a51c2b09aafc">
+                    <propertyInstance
+                      Id="d0162691-35a7-47f8-8643-fc47636071c5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6ca93bc-7575-44f2-84d9-b982a57dc88f">
+                    <propertyInstance
+                      Id="abb991c4-998d-431b-9645-a93548a6485f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09af55d1-ebe6-47ac-8a86-838fe7a36200">
+                    <propertyInstance
+                      Id="cadcee81-0ff4-40cc-bce7-f1f3fb86069a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11d02520-eddf-49e9-b66f-eedad17750b8">
+                    <propertyInstance
+                      Id="17dd59fa-4371-4291-ba16-5d89028c9b6c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8415e9da-3149-44cb-89b6-ca923cb44db8">
+                    <propertyInstance
+                      Id="beac2ff4-e0db-4a11-8408-7613e65da697"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a764ac05-9548-4d85-a625-c853c43b48e1">
+                    <propertyInstance
+                      Id="e605b89b-517b-40f0-b672-4acaeee0b3a5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5952138b-fd53-4e7b-aa40-c522f5da461a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="959fd6c6-a130-44c9-87d6-c57feadcc9f1"
+                      LastKnownName="AlchemyElement"
+                      LastKnownLocation="Package1_2244.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="27055575-7044-49e7-8127-d5590108d237"
+                  name="name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0f8a0148-8d64-4863-8db7-034831ccf948"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement Member%3D(Name%3DCreate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETCore%2Fv4.5%2FSystem.Runtime.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d58b2567-2c52-495a-8b34-2b40bac97338"
+                      LastKnownName="String"
+                      LastKnownLocation="Package2_2244.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="13ce8592-7e6d-49b7-a686-b9f9b279c536"
+            name="AlchemyElement"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f09b089b-ab35-4781-8b0c-9806194789db"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyElement Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f0e53a40-308d-4137-bfec-33cd589b05cf"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="168a5993-44a9-4d1a-88b6-895013c9d7e4">
+                    <propertyInstance
+                      Id="b2017675-fe9f-431a-b94f-fb18563bd4b8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe8c3483-b002-4b23-93c5-3d4eb44b0413">
+                    <propertyInstance
+                      Id="426bf9be-77f1-426a-99fe-5805584d7818"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d69fbca0-c14f-4668-b8b9-4c15286502cc">
+                    <propertyInstance
+                      Id="a45f45bd-3b70-4ab0-b7bb-db54382cc899"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ebe19fe-630c-4cc8-849f-afbe40f9998b">
+                    <propertyInstance
+                      Id="45527845-b41a-448e-b16f-675b32c73f3f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="658d9574-7211-4db2-b6c4-8fdb9e88dab2">
+                    <propertyInstance
+                      Id="ca35327b-c98b-4e52-a282-e730fdda5949"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9489acf-3994-4eff-836a-d0ace5f004ca">
+                    <propertyInstance
+                      Id="da706425-9f4a-4dd2-a5a2-0298f0f584dc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d6d8fa3f-d659-4512-9b37-2d8a6088d2a8"
+        name="AlchemyReaction"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="79ec6add-9ddc-45e8-a04c-95635aa3edb8"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FLibraries%2FProjects%2FAlchemy%2FAlchemy.Common%2Fbin%2FDebug%2FAlchemy.Common.dll Namespace%3DAlchemy.Common Type%3DAlchemyReaction"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="57f3e5f9-a02d-4741-96d0-55de9e595730"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6d546c05-ce85-438f-8a42-9cb6491ec07a">
+                <propertyInstance
+                  Id="a37f6b20-dc4a-4767-bc9e-1d5ae1576eb7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="38b196f4-f954-4699-8706-3ad2ac17d92d">
+                <propertyInstance
+                  Id="83b03ed5-c3cf-44c0-b8f9-9c5a7ea80a7b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f94db8f-a00d-44ab-967b-bc8b58313535">
+                <propertyInstance
+                  Id="554bf53e-2bae-44c7-8615-46ea6d68f662"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4c708f81-1a0a-4081-aa3c-33aa6e7d92e2">
+                <propertyInstance
+                  Id="a5721a46-9d29-474c-9925-2b0bfc3b32fa"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a590e52-1419-4a06-9929-33cf25c0034c">
+                <propertyInstance
+                  Id="442654bd-9549-40e2-8e2f-e1204ddf15e7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alchemy.Common", "Alchemy.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alchemy.Tests", "Alchemy.Tests\Alchemy.Tests.csproj", "{3D065A15-2F5F-4CC6-BA1E-5F2805A86225}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Alchemy.Modeling", "Alchemy.Modeling\Alchemy.Modeling.modelproj", "{B5E0FE88-A725-420D-8737-A6E2771B8D2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,16 @@ Global
 		{3D065A15-2F5F-4CC6-BA1E-5F2805A86225}.Release|x86.ActiveCfg = Release|x86
 		{3D065A15-2F5F-4CC6-BA1E-5F2805A86225}.Release|x86.Build.0 = Release|x86
 		{3D065A15-2F5F-4CC6-BA1E-5F2805A86225}.Release|x86.Deploy.0 = Release|x86
+		{B5E0FE88-A725-420D-8737-A6E2771B8D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E0FE88-A725-420D-8737-A6E2771B8D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E0FE88-A725-420D-8737-A6E2771B8D2D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{B5E0FE88-A725-420D-8737-A6E2771B8D2D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B5E0FE88-A725-420D-8737-A6E2771B8D2D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B5E0FE88-A725-420D-8737-A6E2771B8D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E0FE88-A725-420D-8737-A6E2771B8D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E0FE88-A725-420D-8737-A6E2771B8D2D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{B5E0FE88-A725-420D-8737-A6E2771B8D2D}.Release|x64.ActiveCfg = Release|Any CPU
+		{B5E0FE88-A725-420D-8737-A6E2771B8D2D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
